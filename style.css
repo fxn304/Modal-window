@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  z-index: 999;
+  max-width: 400px;
+  padding: 20px 70px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.close-modal {
+  position: absolute;
+  right: 5%;
+  font-size: 2rem;
+  padding: 0px 10px;
+  border-radius: 50%;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+}
